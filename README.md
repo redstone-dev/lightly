@@ -8,7 +8,7 @@ The fastest Cloud Network (CN) in Canada
 * `yaml/invokes.yml`
 * `yaml/yaml-manifest`
 ## PHP's:
-* `dist/lightl.php`
+* `dist/lightly.php`
 * * *
 So, in `dist/lightly.php`, type:
 ```php
