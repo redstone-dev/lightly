@@ -2,3 +2,5 @@
   - "cloud":
     - "scripts"
     - "dns-address"
+  - "DNS":
+    - "nil"
