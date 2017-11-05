@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lightly.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Load Bootstrap Library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  /* CSS */
+  body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
 
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:100px;color: #fff; background-color: #009688;}
+  </style>
+  
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+ <div class="jumbotron text-center">
+  <h1>About Lightly</h1>
+</div>
+<!-- navbar -->
+ <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="205">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Lightly</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+<!-- Sections -->
+<div id="section1" class="container-fluid">
+  <h1>Performance.</h1>
+  <p><big>Lightly will try to be fast on performance&mdash;it will run blazingly fast &amp; get users <i>anywhere</i> with their code.</big></p> 
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Powerful.</h1>
+  <big><p>Lightly will be powerful&mdash;from APIs to Buisness Analysis, Lightly will handle it all.</p></big>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Reliable.</h1>
+  <big><p>Lightly is <i>perfect</i> for Buisness Analysis because it has a built-in-perfectly SQL library, so Lightly will be reliable.</p></big>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Demos</h1>
+  <ul>
+    
+  </ul>
+</div>
+<div id="section42" class="container-fluid">
+  <big><p>&copy; 2017 Lightly. All rights reserved.</p></big>
+</div>
+  
+</body>
+</html>
