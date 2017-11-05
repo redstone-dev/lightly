@@ -1,4 +1,4 @@
-"infrastructure":
+"infrastructure": >
   - "cloud":
     - "scripts"
     - "dns-address"
